@@ -3,9 +3,12 @@
     nav{
         height: 7%;
     }
+    .logo h1{
+        font-size: 4.5vw;
+    }
 
     .links{
-        width: 20%;
+        width: 21%;
     }
     .links i{
         display: block;
@@ -14,17 +17,30 @@
     .links h3{
         display: none;
     }
+    .links button{
+        font-size: 3.5vw;
+    }
 
     .hero{
         flex-direction: column;
     }
     .left{
         width: 100%;
-        height: 50%;
+        height: 40%;
+    }
+    .left h1{
+        font-size: 8vw;
+    }
+    .left p{
+        font-size: 2.5vw;
+    }
+    .left button{
+        font-size: 3vw;
+        margin-top: 3vw;
     }
     .right{
         width: 100%;
-        height: 50%;
+        height: 60%;
     }
     .right img{
         width: 100%;
@@ -34,10 +50,20 @@
 
 button:hover{
     cursor: pointer;
-    color: gray;
     border-radius: 0;
+    color: rgb(63, 208, 159);
     background-color: transparent;
 }
 button{
     transition: all .3s linear;
+}
+.links h3:hover{
+    cursor: pointer;
+    border-bottom: 1px solid #8b8b8b;
+}
+.heading span{
+    transition: all .2s linear;
+}
+.heading span:hover{
+    font-size: 4.2vw;
 }

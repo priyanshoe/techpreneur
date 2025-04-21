@@ -18,7 +18,7 @@ tl
     opacity:0,
     stagger:.2,
     duration:1
-})
+});
 
 
 tl2
@@ -31,10 +31,11 @@ tl2
 .from('p',{
     y:50,
     opacity:0,
-    duration:1,
+    duration:.7,
+    clearProps: "opacity,transform" 
 })
 .from('button',{
     opacity:0,
     duration:1,
-    delay:1
-})
+    clearProps: "opacity,transform" 
+});
